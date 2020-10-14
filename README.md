@@ -20,14 +20,14 @@ Assuming that you have ``Python``, ``virtualenv`` and ``FFmpeg`` installed, set 
     $ python -m pip install -r requirements.txt
 
 
-
 Using msstream-dl
+---------------
 
 After installing msstream-dl 
 
 Next just do
 
-     $python microsoft.py --username EMAIL --video VIDEO_LINK 
+     $ python microsoft.py --username EMAIL --video VIDEO_LINK 
 
 it will ask for your password, input your Microsoft Password and hit enter.
 
