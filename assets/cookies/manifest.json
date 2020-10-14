@@ -1,0 +1,27 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  "name": "cookies.json",
+  "version": "1.0",
+  "description": "Download cookies everytime when a page loaded in JSON",
+  "short_name": "cookiesOC",
+  "offline_enabled": true,
+    
+  "permissions": [ "activeTab", "downloads", "storage", "cookies", "http://*/*", "https://*/*"],
+
+
+  "browser_action": {
+    "default_title": "Export cookies.json",
+    "default_icon": "icon.png"
+  },
+
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+
+  "options_ui": {
+    "page": "options.html"
+  }
+}
