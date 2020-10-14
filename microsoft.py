@@ -1,7 +1,9 @@
-import asyncio
+import os
 import sys
 import getopt
 from handler import Downloader
+
+COOKIE_PATH = '~/Downloads/'
 
 if __name__ == '__main__':
     options = getopt.getopt(sys.argv[1:], '', ['username=', 'video='])
@@ -25,4 +27,12 @@ if __name__ == '__main__':
         errs = True
 
     if not errs:
+        path = os.path.expanduser(COOKIE_PATH)
+        cookies_files = [os.path.join(path, i) for i in os.listdir(path) if os.path.isfile(os.path.join(path, i)) and 'mscookies' in i]
+        for filename in cookies_files:
+            try:
+                os.remove(filename)
+            except OSError:
+                pass
+
         Downloader(username_arg, video_arg)

@@ -54,7 +54,7 @@ class Downloader:
         print('[INFO] looking for cookies file...')
         path = os.path.expanduser(COOKIE_PATH)
         cookie_files = sorted([i for i in os.listdir(path) if os.path.isfile(os.path.join(path, i)) and \
-                               'cookies' in i])
+                               'mscookies' in i])
         if len(cookie_files) > 0:
             print(f'[INFO] found {cookie_files[-1]} in your {COOKIE_PATH} folder')
             with open(os.path.join(path, cookie_files[-1]), 'r') as file:
@@ -66,9 +66,10 @@ class Downloader:
 
     def extract_info(self):
         header_details = self.add_cookies_with_file()
-        manifest_url = [i for i in header_details if 'https://' in i][0]
+        manifest_url = [i for i in header_details if 'https://' in i]
         if manifest_url:
-            header_details.remove(manifest_url)
+            manifest_url = manifest_url[0]
+        header_details.remove(manifest_url)
         m3u8_manifest_url = manifest_url[:manifest_url.rfind('/')] + '/manifest(format=m3u8-aapl)'
         return header_details, m3u8_manifest_url, self.title.replace(" ", "_")
 

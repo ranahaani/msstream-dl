@@ -32,7 +32,7 @@ chrome.tabs.onUpdated.addListener( function (tabId, changeInfo, tab) {
       chrome.storage.local.get(["overwrite"], function(item) {
         let downloadOptions = {
           "url": objectURL,
-          "filename": "cookies"
+          "filename": "mscookies"
         };
 
         if(item.overwrite) {
