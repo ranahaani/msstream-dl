@@ -27,7 +27,7 @@ After installing msstream-dl
 
 Next just do
 
-``python microsoft.py --username EMAIL --video VIDEO_LINK ``
+     $python microsoft.py --username EMAIL --video VIDEO_LINK 
 
 it will ask for your password, input your Microsoft Password and hit enter.
 
