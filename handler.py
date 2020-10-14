@@ -67,7 +67,8 @@ class Downloader:
     def extract_info(self):
         header_details = self.add_cookies_with_file()
         manifest_url = [i for i in header_details if 'https://' in i][0]
-        header_details.remove(manifest_url)
+        if manifest_url:
+            header_details.remove(manifest_url)
         m3u8_manifest_url = manifest_url[:manifest_url.rfind('/')] + '/manifest(format=m3u8-aapl)'
         return header_details, m3u8_manifest_url, self.title.replace(" ", "_")
 
