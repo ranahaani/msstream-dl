@@ -21,6 +21,7 @@ class Downloader:
         chrome_options = Options()
         try:
             ext_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "assets", 'cookies')
+            print(ext_path)
             chrome_options.add_argument('--load-extension={}'.format(ext_path))
         except NoSuchElementException as err:
             Common.log(err.message, 'error')
