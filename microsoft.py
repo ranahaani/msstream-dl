@@ -1,7 +1,7 @@
 import os
 import sys
 import getopt
-from handler import Downloader
+from scripts.handler import Downloader
 from pathlib import Path, PurePath
 
 

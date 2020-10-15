@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff1ab869-f044-4f7b-97d6-432ff06a4318" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/microsoft-dl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microsoft-dl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Watch_Lect_#_03.Nomenclature_of_Alkanes_|_Microsoft_Stream.f2834.mp4.part" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microsoft.py" beforeDir="false" afterPath="$PROJECT_DIR$/microsoft.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="397fd9f3-1b09-49b5-9bb8-d228521c084f" />
+  <component name="ProjectId" id="1iuI6QsOT2YbWuniVQ7RHAvBwyj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microsoft.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="microsoft" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="microsoft-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/microsoft.py" />
+      <option name="PARAMETERS" value="--video https://web.microsoftstream.com/video/dbb9581e-b70d-4b6b-a3ae-349cd6a30850?list=trending --username ranahaani@ucp.edu.pk" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff1ab869-f044-4f7b-97d6-432ff06a4318" name="Default Changelist" comment="" />
+      <created>1602750874793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602750874793</updated>
+      <workItem from="1602750876124" duration="4608000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="177" y="55" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602756664362">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="177" y="55" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1602756664362" />
+    <state x="502" y="118" width="424" height="591" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1602751409924">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="502" y="118" width="424" height="591" key="#com.intellij.ide.macro.MacrosDialog/72.27.1294.741@72.27.1294.741" timestamp="1602751409924" />
+    <state x="559" y="152" width="309" height="523" key="EnvironmentVariablesDialog" timestamp="1602751370410">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="559" y="152" width="309" height="523" key="EnvironmentVariablesDialog/72.27.1294.741@72.27.1294.741" timestamp="1602751370410" />
+    <state x="502" y="168" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602751388275">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="502" y="168" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1602751388275" />
+    <state width="1248" height="293" key="GridCell.Tab.0.bottom" timestamp="1602756633657">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="293" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602756633657" />
+    <state width="1248" height="293" key="GridCell.Tab.0.center" timestamp="1602756633656">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="293" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1602756633656" />
+    <state width="1248" height="293" key="GridCell.Tab.0.left" timestamp="1602756633655">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="293" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1602756633655" />
+    <state width="1248" height="293" key="GridCell.Tab.0.right" timestamp="1602756633656">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="293" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1602756633656" />
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1602751673169">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1602751673169" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/msstream_dl$microsoft.coverage" NAME="microsoft Coverage Results" MODIFIED="1602755124783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
