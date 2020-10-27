@@ -19,15 +19,31 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff1ab869-f044-4f7b-97d6-432ff06a4318" name="Default Changelist" comment="">
+    <list default="true" id="ff1ab869-f044-4f7b-97d6-432ff06a4318" name="Default Changelist" comment="Optimized imports">
+      <change beforePath="$PROJECT_DIR$/.idea/microsoft-dl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microsoft-dl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/handler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="397fd9f3-1b09-49b5-9bb8-d228521c084f" />
@@ -77,6 +93,14 @@
       <updated>1602750874793</updated>
       <workItem from="1602750876124" duration="6917000" />
     </task>
+    <task id="LOCAL-00001" summary="Optimized imports">
+      <created>1603800195125</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603800195125</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +116,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Optimized imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized imports" />
   </component>
   <component name="WindowStateProjectService">
     <state x="177" y="55" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602756664362">
@@ -102,6 +131,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="502" y="118" width="424" height="591" key="#com.intellij.ide.macro.MacrosDialog/72.27.1294.741@72.27.1294.741" timestamp="1602751409924" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603800338235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603800338235" />
     <state x="559" y="152" width="309" height="523" key="EnvironmentVariablesDialog" timestamp="1602751370410">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -130,8 +163,13 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="208" y="31" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1602751673169" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/msstream_dl$microsoft.coverage" NAME="microsoft Coverage Results" MODIFIED="1602766414671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1603800197024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603800197024" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603800488059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603800488059" />
   </component>
 </project>
