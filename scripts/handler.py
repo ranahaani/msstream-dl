@@ -2,12 +2,14 @@
 import getpass
 import os
 import re
-from time import sleep
-from selenium import webdriver
 from pathlib import Path, PurePath
+from time import sleep
+
+from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+
 from scripts.common import Common
 
 
