@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 import getpass
+import logging
 import os
 import re
-from time import sleep
-from selenium import webdriver
 from pathlib import Path, PurePath
+from time import sleep
+
+from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from scripts.common import Common
+
+LOG = logging.getLogger(__name__)
 
 
 class Downloader:
@@ -24,7 +27,7 @@ class Downloader:
             print(ext_path)
             chrome_options.add_argument('--load-extension={}'.format(ext_path))
         except NoSuchElementException as err:
-            Common.log(err.message, 'error')
+            LOG.error(err.message)
             exit()
         self.driver = webdriver.Chrome(executable_path=driver_manager, options=chrome_options)
         self.login()
@@ -33,7 +36,7 @@ class Downloader:
         """
         Login to MS stream
         """
-        Common.log(f'[INFO] logging as {self.username}', 'info')
+        LOG.info(f'Trying to login user: {self.username}...')
         self.driver.get('https://web.microsoftstream.com/')
 
         self.driver.find_element_by_css_selector('input[type="email"]').send_keys(self.username)
@@ -49,26 +52,26 @@ class Downloader:
         self.driver.execute_script(f"window.open('https://web.microsoftstream.com/')")
         self.driver.switch_to.window(self.driver.window_handles[-1])
         self.driver.get(self.video_url)
-        Common.log(f'[INFO] we are logged in as {self.username}...', 'info')
+        LOG.info(f'Logged in user: {self.username} successfully...')
         sleep(8)  # Waiting until cookie file download into your system
-        Common.log(f'[INFO] closing browser...', 'info')
+        LOG.info(f'closing browser...')
         self.title = re.sub('[^A-Za-z0-9]+', ' ', self.driver.title)
         self.driver.quit()
         self.download_video()
 
     @staticmethod
     def __add_cookies_with_file():
-        Common.log('[INFO] looking for cookies file...', 'info')
+        LOG.info('looking for cookies file...')
         cookie_path = str(PurePath(Path.home(), "Downloads"))
         cookie_files = sorted([i for i in os.listdir(cookie_path) if os.path.isfile(os.path.join(cookie_path, i)) and \
                                'mscookies' in i])
         if len(cookie_files) > 0:
-            Common.log(f'[INFO] found {cookie_files[-1]} in your {cookie_path} folder', 'info')
+            LOG.info(f'Found {cookie_files[-1]} in {cookie_path} directory.')
             with open(os.path.join(cookie_path, cookie_files[-1]), 'r') as file:
                 content = file.read().split(';')
                 return content
         else:
-            Common.log('[ERROR] No cookies files found...', 'error')
+            LOG.error('No cookies files found...')
             exit()
 
     def __extract_info(self):
